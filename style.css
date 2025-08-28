@@ -1,0 +1,191 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #010101;
+    background-color: #f3e6f9; /* Light purple background */
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+  .cajita-section {
+    background-color: #e6ccff; /* Light purple */
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .cajita-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .cajita-images {
+    margin-top: 30px;
+  }
+  
+  .cajita-images img {
+    max-width: 45%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
+  }
+  
+  
+  /* Header */
+  header {
+    background: #a675d1; /* Medium purple */
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  header h1 {
+    flex-grow: 1;
+    font-size: 1.75rem;
+    padding-left: 10px;
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #8ed1fc; /* Light blue on hover */
+  }
+  
+  /* Hero Section */
+  #hero {
+    padding: 60px 0;
+    background-color: #a675d1;
+    color: #8ed1fc;
+    text-align: center;
+  }
+  
+  #hero .hero-content h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  #hero .hero-content p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 0;
+    color: #010101;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    color: #a675d1;
+  }
+  
+  /* Footer */
+  footer {
+    background: #a675d1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  /* Contact Form Styling */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contactForm label {
+    font-weight: bold;
+    color: #a675d1;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  #contactForm input:focus,
+  #contactForm textarea:focus {
+    outline: none;
+    border-color: #a675d1;
+    box-shadow: 0 0 5px #a675d1;
+  }
+  
+  #contactForm button {
+    background-color: #a675d1;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contactForm button:hover {
+    background-color: #8e57c0;
+  }
+  #contact {
+    background-color: #f9f5fc;
+    padding: 60px 0;
+  }
+  
